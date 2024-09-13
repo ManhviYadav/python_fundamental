@@ -1,0 +1,33 @@
+git init                   - Initializes a new Git repository.
+git add <file1> <file2> ... - Adds specific files to the staging area.
+git add .                  - Adds all files in the current directory to the staging area.
+git commit -m "Commit message" - Records the changes in the staging area as a new commit.
+git remote add origin <remote_repository_url> - Connects the local repository to a remote repository.
+git push -u origin master  - Pushes commits to the remote repository's 'master' branch and sets up tracking.
+
+
+git push                   - Pushes commits to the remote repository.
+git status                 - Displays the current state of the repository.
+git pull                   - Fetches and merges changes from the remote repository into the current branch.
+git branch <branch_name>    - Creates a new branch.
+git checkout <branch_name>  - Switches to the specified branch.
+git merge <branch_name>     - Merges the specified branch into the current branch.
+git log       mit associated with the specified tag.
+git show <commit_hash>     - Displa   - Removes the connection between the local and remote repository.
+git remote set-url origin <new_remote_repository_url> - Changes thstory of commits in the repository.
+git diff                   - Shows differences between the current state and the last commit.
+git stash                  - Temporarily saves changes that are not ready to be committed.
+git reset                  - Discards changes .
+git revert                 - Creates a new commit that undoes changes made in a previous commit.
+git clone <remote_repository_url> - Creates a local copy of a remote repository.
+git fetch                  - Fetches changes from the remote repository without merging them.
+git checkout -b <branch_name> - Creates a new branch and switches to it.
+git remote -v              - Lists the branch 		-a - Lists all branches, including remote branches.
+git tag <tag_name>         - Creates a lightweight tag at the current commit.
+git checkout <tag_name>    - Switches to the commit associated with the specified tag.
+git show <commit_hash>     - Displays information about a specific commit.
+git remote remove origin   - Removes the connection between the local and remote repository.
+git remote set-url origin <new_remote_repository_url> - Changes the URL of the remote repository.
+
+<remote_repository_url> - It is a remote repository URL is the location where your code is stored. It could be on GitHub or another server. Git associates this URL with a name, usually called origin.
+<branch_name> - In Git, a branch is a pointer to a specific commit in the repository. Branches are used to create multiple lines of development within a single repository.
